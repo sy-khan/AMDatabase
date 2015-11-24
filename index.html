@@ -15,7 +15,7 @@ h3 {
     text-align: center;
 }
 </style>
-  <title>AMERICAN MUSLIM ID GENERATOR</title>
+  <title>American Muslim ID Generator</title>
 </head>
 
 <body style="background-color:lightgrey">
@@ -30,7 +30,7 @@ h3 {
 
 
 <div class="textpanel">
-    <img src="https://41.media.tumblr.com/fc9e90284c33ef632d6012e4919e8dcf/tumblr_nybdc9MP5t1r5iwjlo1_540.jpg"> 
+    <img src="https://36.media.tumblr.com/8ce81b78a91a451a58971f550ee74738/tumblr_nyc7ucM71O1r5iwjlo1_540.jpg"> 
         <textarea id="name" style="border: none; color: black; background-color: transparent;">Your Name Here</textarea>
         <textarea id="skin_tone" style="border: none; color: black; background-color: transparent;">Your SkinTone Here</textarea>
         <textarea id="ethnicity" style="border: none; color: black; background-color: transparent;">Your Ethnicity Here</textarea>
@@ -39,6 +39,15 @@ h3 {
         <form action="/file-upload"
         class="dropzone"
         id="photo"></form>
+
+</div>
+
+<div class="textpanel1">
+    <img src="https://41.media.tumblr.com/7c8ff5e36e77272160f221affba68de5/tumblr_nyc7ucM71O1r5iwjlo2_540.jpg"> 
+        <textarea id="stren1" style="border: none; color: black; background-color: transparent;">Strength1</textarea>
+        <textarea id="stren2" style="border: none; color: black; background-color: transparent;">Strength2</textarea>
+        <textarea id="stren3" style="border: none; color: black; background-color: transparent;">Strength3</textarea>
+        <textarea id="stren4" style="border: none; color: black; background-color: transparent;">Strength4</textarea>
 
 </div>
 
@@ -100,7 +109,65 @@ h3 {
     font-size: 8pt;
     font-family: Arial;
 }
+
+.textpanel1 {
+    position: relative;
+    display: inline-block; /* if you want this container to shrink-to-fit */
+}
+.textpanel1 img {
+    display: block;
+}
+.textpanel1 textarea#stren1 {
+    position: absolute;
+    top: 115px;
+    left: 57px;
+    height: 40px;
+    width: 200px;
+    font-size: 13pt;
+    font-family: Arial;
+}
+
+.textpanel1 textarea#stren2 {
+    position: absolute;
+    top: 107px;
+    left: 320px;
+    height: 40px;
+    width: 230px;
+    font-size: 13pt;
+    font-family: Arial;
+}
+
+.textpanel1 textarea#stren3 {
+    position: absolute;
+    top: 150px;
+    left: 310px;
+    height: 40px;
+    width: 230px;
+    font-size: 13pt;
+    font-family: Arial;
+}
+
+.textpanel1 textarea#stren4 {
+    position: absolute;
+    top: 190px;
+    left: 261px;
+    height: 40px;
+    width: 230px;
+    font-size: 13pt;
+    font-family: Arial;
+}
+
+.textpanel1 #photo {
+    position: absolute;
+    top: 62px;
+    left: 21px;
+    height: 40px;
+    width: 230px;
+    font-size: 8pt;
+    font-family: Arial;
+}
 </style>
+
 
 <!-- <form action="upload.php" method="post" enctype="multipart/form-data">
     Select identification image to appear on your ID:
