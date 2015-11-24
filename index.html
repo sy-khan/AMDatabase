@@ -13,10 +13,6 @@ h2 {
 }
 h3 {
     text-align: center;
-    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
-}
-p {
-     text-align: center;
 }
 </style>
   <title>American Muslim ID Generator</title>
@@ -26,15 +22,15 @@ p {
 
 <nav id="nav01"></nav>
 
-  <h1>AMERICAN MUSLIM DATABASE</h1>
-  <h2><i>Why worry about civil liberties when you can have a database</i></h2>
+  <h1 style="font-family:trajan">AMERICAN MUSLIM DATABASE</h1>
+  <h2><i>The only good Muslim is an authorized one</i></h2>
   <h3>Fill out the ID card below and get authorized!</h3>
 
 <script src="dropzone.js"></script>
 
 
 <div class="textpanel">
-    <img src="./id_card1.jpg"> 
+    <img src="https://36.media.tumblr.com/8ce81b78a91a451a58971f550ee74738/tumblr_nyc7ucM71O1r5iwjlo1_540.jpg"> 
         <textarea id="name" style="border: none; color: black; background-color: transparent;">Your Name Here</textarea>
         <textarea id="skin_tone" style="border: none; color: black; background-color: transparent;">Your SkinTone Here</textarea>
         <textarea id="ethnicity" style="border: none; color: black; background-color: transparent;">Your Ethnicity Here</textarea>
@@ -52,10 +48,6 @@ p {
         <textarea id="stren2" style="border: none; color: black; background-color: transparent;">Strength2</textarea>
         <textarea id="stren3" style="border: none; color: black; background-color: transparent;">Strength3</textarea>
         <textarea id="stren4" style="border: none; color: black; background-color: transparent;">Strength4</textarea>
-        <textarea id="weak1" style="border: none; color: black; background-color: transparent;">Weakness1</textarea>
-        <textarea id="weak2" style="border: none; color: black; background-color: transparent;">Weakness2</textarea>
-        <textarea id="weak3" style="border: none; color: black; background-color: transparent;">Weakness3</textarea>
-        <textarea id="weak4" style="border: none; color: black; background-color: transparent;">Weakness4</textarea>
 
 </div>
 
@@ -128,7 +120,7 @@ p {
 .textpanel1 textarea#stren1 {
     position: absolute;
     top: 115px;
-    left: 50px;
+    left: 57px;
     height: 40px;
     width: 200px;
     font-size: 13pt;
@@ -137,8 +129,8 @@ p {
 
 .textpanel1 textarea#stren2 {
     position: absolute;
-    top: 157px;
-    left: 50px;
+    top: 107px;
+    left: 320px;
     height: 40px;
     width: 230px;
     font-size: 13pt;
@@ -147,8 +139,8 @@ p {
 
 .textpanel1 textarea#stren3 {
     position: absolute;
-    top: 200px;
-    left: 50px;
+    top: 150px;
+    left: 310px;
     height: 40px;
     width: 230px;
     font-size: 13pt;
@@ -157,59 +149,32 @@ p {
 
 .textpanel1 textarea#stren4 {
     position: absolute;
-    top: 240px;
-    left: 50px;
+    top: 190px;
+    left: 261px;
     height: 40px;
     width: 230px;
     font-size: 13pt;
     font-family: Arial;
 }
 
-.textpanel1 textarea#weak1 {
+.textpanel1 #photo {
     position: absolute;
-    top: 115px;
-    left: 322px;
-    height: 40px;
-    width: 200px;
-    font-size: 13pt;
-    font-family: Arial;
-}
-
-.textpanel1 textarea#weak2 {
-    position: absolute;
-    top: 157px;
-    left: 322px;
+    top: 62px;
+    left: 21px;
     height: 40px;
     width: 230px;
-    font-size: 13pt;
-    font-family: Arial;
-}
-
-.textpanel1 textarea#weak3 {
-    position: absolute;
-    top: 200px;
-    left: 322px;
-    height: 40px;
-    width: 230px;
-    font-size: 13pt;
-    font-family: Arial;
-}
-
-.textpanel1 textarea#weak4 {
-    position: absolute;
-    top: 240px;
-    left: 322px;
-    height: 40px;
-    width: 230px;
-    font-size: 13pt;
+    font-size: 8pt;
     font-family: Arial;
 }
 </style>
 
-<p>To save, take a screenshot and print in triplicate to ensure you always have a copy on your authorized person.</p>
 
+<!-- <form action="upload.php" method="post" enctype="multipart/form-data">
+    Select identification image to appear on your ID:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+</form> -->
 
-<p><i>Inspired by <a href="https://www.facebook.com/wajali/posts/10104015117863443">Wajahat Ali</a> and <a href="http://live.huffingtonpost.com/r/segment/free-speech-zone-caro-mt/50f5737902a76015c8000043">Huffington Post</a></i></p>
 
 </body>
 </html>
