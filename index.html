@@ -244,23 +244,6 @@ p {
 
 </div>
 
-<script type="text/javascript">
-function capture() {
-    var target = $('#id_card');
-    html2canvas(target, {
-        onrendered: function (canvas) {
-            //Set hidden field's value to image data (base-64 string)
-            // $('#img_val').val(canvas.toDataURL("image/png"));
-        var image = canvas.toDataURL();
-        window.open(image);
-        }
-    });
-}
-
-</script>
-
-<input type="button" value="Save Your ID" onclick="capture();" />
-
 
 <p>To save, take a screenshot and print in triplicate to ensure you always have a copy on your authorized person.</p>
 
