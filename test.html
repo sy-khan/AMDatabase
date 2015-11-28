@@ -1,0 +1,38 @@
+<html>
+<head>
+<style type="text/css">
+div {
+    height: 50px;
+    width: 50px;
+    background-color: #2C7CC3;
+}
+</style>
+
+<input type="button" value="Save Your ID" onclick="capture();" />
+
+
+<script type="text/javascript">
+function capture() {
+    html2canvas($('#testdiv'), {
+        onrendered: function (canvas) {
+            //Set hidden field's value to image data (base-64 string)
+            // $('#img_val').val(canvas.toDataURL("image/png"));
+        var image = canvas.toDataURL();
+        window.open(image);
+        }
+    });
+}
+
+</script>
+
+
+
+<script type="text/javascript" src="html2canvas.js"></script>
+<script type="text/javascript" src="jquery-1.9.1.js"></script>
+
+</head>
+<body>
+<div id="testdiv">
+</div>
+</body>
+</html>
